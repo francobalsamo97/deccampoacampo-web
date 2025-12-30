@@ -1,1 +1,44 @@
-<h1>decampoacampo</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>deCampoaCampo - Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f8fafc; }
+        .brand-blue { color: #2c5282; }
+        .card { background: white; border-radius: 16px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); }
+    </style>
+</head>
+<body class="p-8">
+
+    <div class="max-w-7xl mx-auto mb-8 flex justify-between items-center">
+        <div>
+            <h1 class="text-3xl font-bold brand-blue">deCampo<span class="text-blue-400">Pagos</span></h1>
+            <p class="text-gray-500 text-sm">Mercado Ganadero</p>
+        </div>
+        <div class="bg-white px-4 py-2 rounded-full border text-sm text-gray-600">
+            fbalsamo@decampoacampo.com
+        </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto">
+        <div class="card p-6">
+            <h2 class="text-xl font-bold text-gray-700 mb-6 uppercase tracking-wider text-sm">Sociedades</h2>
+            
+            <div class="overflow-hidden rounded-lg">
+                <iframe
+                    src="https://bi.decampoacampo.com/public/question/TU_TOKEN_AQUI"
+                    frameborder="0"
+                    width="100%"
+                    height="600"
+                    allowtransparency
+                ></iframe>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
